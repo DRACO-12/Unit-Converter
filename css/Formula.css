@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 243, 250);
+    backface-visibility: 10vs;
+    padding-top: 2vh;
+}
+
+h1 {
+    border-radius: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    background: rgb(255, 159, 0);
+    font-size: 30px;
+    padding: 2vh 0vh 2vh 5vh;
+}
+
+ul {
+    position: relative;
+    display: grid;
+}
+
+ul li {
+    font-family: 'Asap Condensed', sans-serif;
+    flex-wrap: wrap;
+    padding: 1vh 10vh 1vh 12vh;
+    font-size: 18px;
+}
+
+.container {
+    position: relative;
+    display: grid;
+}
+
+.container .formula h2 {
+    padding: 2vh 6vh;
+    font-size: 25px;
+    background: rgb(255, 159, 0);
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 10px;
+}
+
+.container .formula .inf h3 {
+    padding: 2vh 2vh;
+    font-size: 25px;
+}
+
+.container .formula .inf h3 {
+    font-family: 'Rajdhani', sans-serif;
+    padding-left: 10vh;
+    padding-right: 20vh;
+    padding: 3vh 20vh 1vh 10vh;
+    font-size: 25px;
+
+}
+
+.container .formula .inf p {
+    color: black;
+    font-family: 'Exo', sans-serif;
+    margin: 2vh 2vh;
+    /* padding-left: 10vh;
+    padding-right: 20vh; */
+    padding: 0vh 20vh 0vh 10vh;
+    font-size: 20px;
+
+}

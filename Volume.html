@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units convert</title>
+    <link rel="stylesheet" href="css/styles1.css">
+    <script src="js/Volume.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <h3>Volume</h3>
+
+        <div class="input-group">
+            <label>Value:</label>
+            <input type="number" id="valueInput" />
+        </div>
+        <div class="input-group">
+            <label>From:</label>
+            <select id="fromUnit">
+                <option value="Cubic Meter">Cubic Meter</option>
+                <option value="Cubic Kilometer">Cubic Kilometer</option>
+                <option value="Cubic Centimeter">Cubic Centimeter</option>
+                <option value="Cubic Millimeter">Cubic Millimeter</option>
+                <option value="Liter">Liter</option>
+                <option value="Milliliter">Milliliter</option>
+                <option value="US Gallon">US Gallon</option>
+                <option value="US Quart">US Quart</option>
+                <option value="US Pint">US Pint</option>
+                <option value="US cup">US cup</option>
+                <option value="US Fluid Ounce">US Fluid Ounce</option>
+                <option value="US Table Spoon">US Table Spoon</option>
+                <option value="US Tea Spoon">US Tea Spoon</option>
+                <option value="Imperial Gallon">Imperial Gallon</option>
+                <option value="Imperial Quart">Imperial Quart</option>
+                <option value="Imperial Pint">Imperial Pint</option>
+                <option value="Imperial Fluid Ounce">Imperial Fluid Ounce</option>
+                <option value="Imperial Table Spoon">Imperial Table Spoon</option>
+                <option value="Imperial Tea Spoon">Imperial Tea Spoon</option>
+                <option value="Cubic Mile">Cubic Mile</option>
+                <option value="Cubic Yard">Cubic Yard</option>
+                <option value="Cubic Foot">Cubic Foot</option>
+                <option value="Cubic Inch">Cubic Inch</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label>To:</label>
+            <select id="toUnit">
+                <option value="Cubic Meter">Cubic Meter</option>
+                <option value="Cubic Kilometer">Cubic Kilometer</option>
+                <option value="Cubic Centimeter">Cubic Centimeter</option>
+                <option value="Cubic Millimeter">Cubic Millimeter</option>
+                <option value="Liter">Liter</option>
+                <option value="Milliliter">Milliliter</option>
+                <option value="US Gallon">US Gallon</option>
+                <option value="US Quart">US Quart</option>
+                <option value="US Pint">US Pint</option>
+                <option value="US cup">US cup</option>
+                <option value="US Fluid Ounce">US Fluid Ounce</option>
+                <option value="US Table Spoon">US Table Spoon</option>
+                <option value="US Tea Spoon">US Tea Spoon</option>
+                <option value="Imperial Gallon">Imperial Gallon</option>
+                <option value="Imperial Quart">Imperial Quart</option>
+                <option value="Imperial Pint">Imperial Pint</option>
+                <option value="Imperial Fluid Ounce">Imperial Fluid Ounce</option>
+                <option value="Imperial Table Spoon">Imperial Table Spoon</option>
+                <option value="Imperial Tea Spoon">Imperial Tea Spoon</option>
+                <option value="Cubic Mile">Cubic Mile</option>
+                <option value="Cubic Yard">Cubic Yard</option>
+                <option value="Cubic Foot">Cubic Foot</option>
+                <option value="Cubic Inch">Cubic Inch</option>
+            </select>
+        </div>
+        <button onclick="convert()">Convert</button>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+
+</html>

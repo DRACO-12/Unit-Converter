@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    background-image: url(/Project1/img/Nav.jpg);
+    border-bottom: solid 1px black;
+}
+
+.flex {
+    /* display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    text-align: center;
+}
+
+nav .logo {
+    border-top: solid 1px black;
+    background-image: url(/Project1/img/Nav.jpg);
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 80px;
+    padding-left: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+    background-image: url(/Project1/img/Background.jpeg);
+    padding: 25vh 0vh 5vh 0vh;
+    text-align: center;
+    list-style-type: none;
+    background-color: #FFFFE0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.073);
+    bottom: 50vh;
+}
+
+nav ul li.dropdown .dropdown-content a {
+    color: black;
+    padding: 2vh 2vh;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav ul li.dropdown:hover .dropdown-content a:hover {
+    background-color: #f2f2f2;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-image: url(/Project1/img/Nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    min-height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .unit {
+    background-color: #fff;
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 20px 20px 50px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    border: 3px solid black;
+    border-radius: 5vh;
+    padding: 3vh 3vh;
+    scroll-behavior: smooth;
+}
+
+.container .unit .inf h2 {
+    font-size: 5vh;
+    color: orange;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.container .unit .inf h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 5vh;
+    color: orange;
+
+}
+
+.container .unit h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vh;
+    color: black;
+    padding: 1vh 1vh;
+}
+
+.container .unit .inf {
+    font-size: 4vh;
+    color: black;
+    z-index: 1;
+}
+
+.container .unit .inf p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vh;
+    padding: 2vh 2vh;
+}
+
+.summary {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    margin: -10vh 30vh 10vh 30vh;
+}
+
+.summary h2 {
+    font-family: 'Acme', sans-serif;
+    color: rgb(204, 0, 255);
+    padding: 2vh 2vh;
+}
+
+.summary p {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0vh 2vh;
+    font-size: 3ch;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 20px;
+}

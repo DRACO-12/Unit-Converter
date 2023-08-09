@@ -1,0 +1,52 @@
+    body {
+        padding-top: 20vh;
+    }
+
+    .container {
+        background-color: aqua;
+        width: 300px;
+        margin: 0 auto;
+        padding: 5vh 5vh;
+        border-radius: 50px;
+        /* border: 2px solid black; */
+    }
+
+    .container h1 {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .container h3 {
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .input-group {
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .input-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .input-group input {
+        font-family: 'Nunito', sans-serif;
+        width: 96%;
+        padding: 5px;
+    }
+
+    .input-group select {
+        font-family: 'Rubik', sans-serif;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .result {
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    button {
+        font-family: 'Nunito', sans-serif;
+    }
